@@ -1,0 +1,161 @@
+{
+  "name": "Chrome Keyconfig",
+  "version": "1.5.5",
+  "normal_actions": {
+    "j": {
+      "name": "scroll down",
+      "args": []
+    },
+    "k": {
+      "name": "scroll up",
+      "args": []
+    },
+    "h": {
+      "name": "back",
+      "args": []
+    },
+    "l": {
+      "name": "forward",
+      "args": []
+    },
+    "C-d": {
+      "name": "scroll down half page",
+      "args": []
+    },
+    "C-u": {
+      "name": "scroll up half page",
+      "args": []
+    },
+    "M-i": {
+      "name": "focus first text input",
+      "args": []
+    },
+    "g g": {
+      "name": "scroll to top",
+      "args": []
+    },
+    "G": {
+      "name": "scroll to bottom",
+      "args": []
+    },
+    "H": {
+      "name": "select left tab",
+      "args": []
+    },
+    "L": {
+      "name": "select right tab",
+      "args": []
+    },
+    ", q": {
+      "name": "AutoPatchWork.toggle",
+      "args": []
+    },
+    "g u": {
+      "name": "go to parent dir",
+      "args": []
+    },
+    "d h": {
+      "name": "close left tabs",
+      "args": []
+    },
+    "d l": {
+      "name": "close right tabs",
+      "args": []
+    },
+    "d o": {
+      "name": "close other tabs",
+      "args": []
+    },
+    "u": {
+      "name": "re-open closed tab",
+      "args": []
+    },
+    "r": {
+      "name": "reload",
+      "args": []
+    },
+    "C-r": {
+      "name": "cacheless reload",
+      "args": []
+    },
+    "d d": {
+      "name": "close this tab",
+      "args": []
+    },
+    "f": {
+      "name": "hit a hint",
+      "args": [
+        "q"
+      ]
+    },
+    ", k": {
+      "name": "Keyconfig",
+      "args": []
+    },
+    "C-z": {
+      "name": "limited mode",
+      "args": []
+    }
+  },
+  "limited_actions": {
+    "C-z": {
+      "name": "normal mode",
+      "args": []
+    }
+  },
+  "useTabTitle": false,
+  "smooth_scroll": false,
+  "ldrize": true,
+  "chrome_vim": false,
+  "vim_normal_actions": {
+    "j": {
+      "name": "Down",
+      "args": []
+    },
+    "k": {
+      "name": "Up",
+      "args": []
+    },
+    "h": {
+      "name": "Left",
+      "args": []
+    },
+    "l": {
+      "name": "Right",
+      "args": []
+    },
+    "^": {
+      "name": "Line head",
+      "args": []
+    },
+    "$": {
+      "name": "Line foot",
+      "args": []
+    },
+    "Esc": {
+      "name": "normal mode",
+      "args": []
+    },
+    "i": {
+      "name": "insert mode",
+      "args": []
+    }
+  },
+  "vim_insert_actions": {
+    "Esc": {
+      "name": "normal mode",
+      "args": []
+    }
+  },
+  "vim_default_mode": "normal",
+  "vim_color_config": {
+    "normal": {
+      "background": "gray",
+      "text": "black"
+    },
+    "insert": {
+      "background": "white",
+      "text": "black"
+    }
+  }
+}
