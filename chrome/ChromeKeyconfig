@@ -95,6 +95,10 @@
     "C-z": {
       "name": "limited mode",
       "args": []
+    },
+    "Esc": {
+      "name": "blur focus",
+      "args": []
     }
   },
   "limited_actions": {
