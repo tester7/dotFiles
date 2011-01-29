@@ -1,6 +1,6 @@
 {
   "name": "Chrome Keyconfig",
-  "version": "1.5.5",
+  "version": "1.10.5",
   "normal_actions": {
     "j": {
       "name": "scroll down",
@@ -26,10 +26,6 @@
       "name": "scroll up half page",
       "args": []
     },
-    "M-i": {
-      "name": "focus first text input",
-      "args": []
-    },
     "g g": {
       "name": "scroll to top",
       "args": []
@@ -44,10 +40,6 @@
     },
     "L": {
       "name": "select right tab",
-      "args": []
-    },
-    ", q": {
-      "name": "AutoPatchWork.toggle",
       "args": []
     },
     "g u": {
@@ -98,6 +90,14 @@
     },
     "Esc": {
       "name": "blur focus",
+      "args": []
+    },
+    "C-b": {
+      "name": "Taberareloo.general",
+      "args": []
+    },
+    "C-i": {
+      "name": "focus first text input",
       "args": []
     }
   },
@@ -161,5 +161,6 @@
       "background": "white",
       "text": "black"
     }
-  }
+  },
+  "antiAutoFocus": true
 }
